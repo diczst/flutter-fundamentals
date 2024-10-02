@@ -15,7 +15,9 @@ Widget di Flutter adalah komponen dasar untuk membuat UI yang meliputi semua dar
 - ### STATEFUL WIDGET
     Widget stateful adalah widget yang dapat memperbarui tampilannya berdasarkan perubahan data atau interaksi pengguna.
 
-
+## TIPS AND TRICK
+- ketik stl : membuat boilerplate untuk stateless widget
+- ketik stf : membuat boilerplate untuk stateful widget
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
