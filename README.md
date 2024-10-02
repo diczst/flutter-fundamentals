@@ -15,6 +15,9 @@ Widget di Flutter adalah komponen dasar untuk membuat UI yang meliputi semua dar
 - ### STATEFUL WIDGET
     Widget stateful adalah widget yang dapat memperbarui tampilannya berdasarkan perubahan data atau interaksi pengguna.
 
+## SCAFFOLD
+Scaffold adalah sebuah widget dasar yang menyediakan struktur visual untuk aplikasi. Scaffold mencakup berbagai elemen UI umum seperti AppBar (baris atas), Drawer (menu samping), BottomNavigationBar (navigasi bawah), dan FloatingActionButton (tombol aksi mengambang). Widget ini bertindak sebagai kerangka utama di mana komponen lain ditempatkan untuk membangun halaman atau layar aplikasi yang lengkap.
+
 ## TIPS AND TRICK
 - ketik stl : membuat boilerplate untuk stateless widget
 - ketik stf : membuat boilerplate untuk stateful widget
