@@ -10,10 +10,11 @@ class HomePage extends StatelessWidget {
       appBar: AppBar(
         title: const Text(
           "Beranda",
-          style: TextStyle(color: Colors.white),
+          style: TextStyle(color: Colors.black),
           ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.white,
         centerTitle: true,
+        // bagian pojok kiri appbar
         leading: Container(
           margin: const EdgeInsets.all(10),
           alignment: Alignment.center,
@@ -25,6 +26,8 @@ class HomePage extends StatelessWidget {
             height: 20,
             width: 20,),
         ),
+
+        // bagian pojok kanan appbar
         ),
     );
   }
