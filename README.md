@@ -29,6 +29,10 @@ Masing-masing widget memiliki atribut tertentu yang berperan seperti parameter. 
     - onDoubleTap: Ketika pengguna mengetuk widget dua kali dalam waktu singkat.
     - onLongPress: Ketika pengguna menekan lama pada widget.
     - onSwipe: Ketika pengguna menggeser (swipe) atas, bawah, kiri, atau kanan pada widget.
+- ### COLUMN
+    Column digunakan untuk mengatur anak-anaknya dalam kolom vertikal. Ini bermanfaat saat Anda ingin elemen-elemen seperti teks, gambar, atau tombol ditampilkan satu di atas yang lain dari atas ke bawah. 
+- ### ROW
+    Row mengatur anak-anaknya dalam baris horizontal. Ini digunakan ketika Anda ingin elemen-elemen seperti ikon, teks, atau tombol berada berdampingan dari kiri ke kanan.
 
 ## TIPS AND TRICK
 - ketik stl : membuat boilerplate untuk stateless widget
