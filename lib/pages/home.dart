@@ -16,11 +16,14 @@ class HomePage extends StatelessWidget {
         centerTitle: true,
         leading: Container(
           margin: const EdgeInsets.all(10),
+          alignment: Alignment.center,
           decoration: BoxDecoration(
-            color: Colors.lightBlueAccent,
-            borderRadius: BorderRadius.circular(10)
+            borderRadius: BorderRadius.circular(10),
           ),
-          child: SvgPicture.asset("assets/icons/back.svg"),
+          child: SvgPicture.asset(
+            "assets/icons/back.svg",
+            height: 20,
+            width: 20,),
         ),
         ),
     );

@@ -24,6 +24,8 @@ Masing-masing widget memiliki atribut tertentu yang berperan seperti parameter. 
 ## TIPS AND TRICK
 - ketik stl : membuat boilerplate untuk stateless widget
 - ketik stf : membuat boilerplate untuk stateful widget
+- jika hot-reload tidak berfungsi stop emulator lalu run ulang
+
 
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
