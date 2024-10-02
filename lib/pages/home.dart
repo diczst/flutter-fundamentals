@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_svg/svg.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
@@ -14,7 +15,12 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.blue,
         centerTitle: true,
         leading: Container(
-          
+          margin: const EdgeInsets.all(10),
+          decoration: BoxDecoration(
+            color: Colors.lightBlueAccent,
+            borderRadius: BorderRadius.circular(10)
+          ),
+          child: SvgPicture.asset("assets/icons/back.svg"),
         ),
         ),
     );
