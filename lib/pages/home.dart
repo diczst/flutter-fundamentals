@@ -15,7 +15,8 @@ class HomePage extends StatelessWidget {
         backgroundColor: Colors.white,
         centerTitle: true,
         // bagian pojok kiri appbar
-        leading: Container(
+        leading: GestureDetector(
+          child: Container(
           margin: const EdgeInsets.all(10),
           alignment: Alignment.center,
           decoration: BoxDecoration(
@@ -26,7 +27,23 @@ class HomePage extends StatelessWidget {
             height: 20,
             width: 20,),
         ),
-
+          onTap: (){
+            
+          }
+        ),
+        actions: [
+          Container(
+          margin: const EdgeInsets.all(10),
+          alignment: Alignment.center,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(10),
+          ),
+          child: SvgPicture.asset(
+            "assets/icons/dots.svg",
+            height: 20,
+            width: 20,),
+        )
+        ],
         // bagian pojok kanan appbar
         ),
     );
