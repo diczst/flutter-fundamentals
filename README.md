@@ -20,6 +20,15 @@ Masing-masing widget memiliki atribut tertentu yang berperan seperti parameter. 
 ### CONTOH-CONTOH WIDGET : 
 - ### SCAFFOLD
     Scaffold adalah sebuah widget dasar yang menyediakan struktur visual untuk aplikasi. Scaffold mencakup berbagai elemen UI umum atau atribut seperti AppBar (baris atas), Drawer (menu samping), BottomNavigationBar (navigasi bawah), dan FloatingActionButton (tombol aksi mengambang). Widget ini bertindak sebagai kerangka utama di mana komponen lain ditempatkan untuk membangun halaman atau layar aplikasi yang lengkap.
+- ### GESTURE DETECTOR
+    GestureDetector adalah widget di Flutter yang digunakan untuk mendeteksi berbagai jenis interaksi pengguna, seperti ketukan, geseran, dan banyak lagi. Widget ini sangat berguna untuk menambahkan fungsionalitas sentuh ke widget yang tidak memiliki perilaku bawaan untuk menangani gestur seperti container. GestureDetector membungkus widget lain dan menyediakan callback untuk berbagai jenis gestur yang mungkin ingin dikenali.
+    
+    Berikut adalah beberapa jenis gestur yang bisa ditangani oleh GestureDetector:
+
+    - onTap: Ketika pengguna mengetuk widget.
+    - onDoubleTap: Ketika pengguna mengetuk widget dua kali dalam waktu singkat.
+    - onLongPress: Ketika pengguna menekan lama pada widget.
+    - onSwipe: Ketika pengguna menggeser (swipe) atas, bawah, kiri, atau kanan pada widget.
 
 ## TIPS AND TRICK
 - ketik stl : membuat boilerplate untuk stateless widget

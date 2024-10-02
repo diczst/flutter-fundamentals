@@ -7,45 +7,48 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text(
-          "Beranda",
-          style: TextStyle(color: Colors.black),
-          ),
-        backgroundColor: Colors.white,
-        centerTitle: true,
-        // bagian pojok kiri appbar
-        leading: GestureDetector(
-          child: Container(
-          margin: const EdgeInsets.all(10),
-          alignment: Alignment.center,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: SvgPicture.asset(
-            "assets/icons/back.svg",
-            height: 20,
-            width: 20,),
-        ),
-          onTap: (){
-            s
-          }
-        ),
-        actions: [
-          Container(
-          margin: const EdgeInsets.all(10),
-          alignment: Alignment.center,
-          decoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(10),
-          ),
-          child: SvgPicture.asset(
-            "assets/icons/dots.svg",
-            height: 20,
-            width: 20,),
-        )
-        ],
-        // bagian pojok kanan appbar
-        ),
+      appBar: appBar(),
     );
+  }
+
+  AppBar appBar() {
+    return AppBar(
+      title: const Text(
+        "Beranda",
+        style: TextStyle(color: Colors.black),
+        ),
+      backgroundColor: Colors.white,
+      centerTitle: true,
+      // bagian pojok kiri appbar
+      leading: GestureDetector(
+        child: Container(
+        margin: const EdgeInsets.all(10),
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: SvgPicture.asset(
+          "assets/icons/back.svg",
+          height: 20,
+          width: 20,),
+      ),
+        onTap: (){
+        }
+      ),
+      actions: [
+        Container(
+        margin: const EdgeInsets.all(10),
+        alignment: Alignment.center,
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10),
+        ),
+        child: SvgPicture.asset(
+          "assets/icons/dots.svg",
+          height: 20,
+          width: 20,),
+      )
+      ],
+      // bagian pojok kanan appbar
+      );
   }
 }
