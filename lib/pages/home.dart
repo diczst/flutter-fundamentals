@@ -13,6 +13,9 @@ class HomePage extends StatelessWidget {
           ),
         backgroundColor: Colors.blue,
         centerTitle: true,
+        leading: Container(
+          
+        ),
         ),
     );
   }
